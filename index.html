@@ -3,31 +3,33 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Simon</title>
+  <title>Leprechaun Dance</title>
   <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body>
-  <h1 id="level-title">Press A Key to Start</h1>
+  <h1 id="level-title"><img src="img/shamrock.png" alt=""> Press Any Key to Start <img src="img/shamrock.png" alt=""></h1>
+  <div class ="instructions">Repeat the dance, add the new leprechaun, find the gold at level 10!</div>
   <div class="container">
     <div lass="row">
 
-      <div type="button" id="green" class="btn green">
+      <div type="button" id="top-left" class="btn top-left">
 
       </div>
 
-      <div type="button" id="red" class="btn red">
+      <div type="button" id="top-right" class="btn top-right">
 
       </div>
     </div>
 
     <div class="row">
 
-      <div type="button" id="yellow" class="btn yellow">
+      <div type="button" id="bottom-left" class="btn bottom-left">
 
       </div>
-      <div type="button" id="blue" class="btn blue">
+      <div type="button" id="bottom-right" class="btn bottom-right">
 
       </div>
 
@@ -35,7 +37,7 @@
 
   </div>
 
-
+  <script src="game.js" charset="utf-8"></script>
 </body>
 
 </html>
