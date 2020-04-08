@@ -3,7 +3,7 @@ var gamePattern = [];
 var userClickedPattern = [];
 var level = 0;
 var started = false;
-var goldRequirement = 5;
+var goldRequirement = 10;
 
 $(document).on('keydown', function() {
   if (!started) {
