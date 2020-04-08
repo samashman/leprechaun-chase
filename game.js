@@ -53,6 +53,10 @@ function findGold() {
     $(".gold").fadeIn(200).fadeOut(200).fadeIn(200);
   }
   $('.instructions').text('You got the gold! Keep going!');
+  setTimeout(function() {
+    $('.instructions').text('Repeat the dance, add the new leprechaun, find the gold at level 10!');
+  }, 2000);
+
   playSound('foundGold');
 }
 
